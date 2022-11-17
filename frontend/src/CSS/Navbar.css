@@ -1,0 +1,8 @@
+.cart {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+

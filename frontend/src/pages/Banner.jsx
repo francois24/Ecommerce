@@ -18,7 +18,7 @@ const Banner = () => {
                     <span style={{fontSize: '20px',letterSpacing: '3px'}}>{item.desc1}</span>
                     <br/>
                    <button className='btn1'>SHOP NOW</button>
-            </Col>
+                 </Col>
         </Row>
          ))}       
     </Container>

@@ -6,3 +6,8 @@
     font-size: 1.5rem;
 }
 
+.btn-outline-success.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color:teal;
+    border-color: var(--bs-btn-hover-border-color);
+}

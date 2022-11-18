@@ -13,19 +13,16 @@ const Navbar1 = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{background: 'teal'}}/>
             <Navbar.Collapse id="responsive-navbar-nav" className='button1'>
 
-          <Nav className="me-auto">
-            <Nav.Link className='text-dark' href="#/">Home</Nav.Link>
-            <Nav.Link className='text-dark' href="#about">About</Nav.Link>
-            <Nav.Link className='text-dark' href="#product">Product</Nav.Link>
-          </Nav>
-
-          <Form className="d-flex">
+            <Form className="d-flex">
             <Form.Control type="search" placeholder="Search"className="me-2"
             aria-label="Search"/>
             <Button variant="outline-success">Search</Button>
-          </Form>
+            </Form>
 
-          <Nav>
+            <Nav className="ms-auto">
+            <Nav.Link className='text-dark' href="#/">Home</Nav.Link>
+            <Nav.Link className='text-dark' href="#about">About</Nav.Link>
+            <Nav.Link className='text-dark' href="#product">Product</Nav.Link>
             <Nav.Link className='text-dark' href="#register">Register</Nav.Link>
             <Nav.Link className='text-dark' eventKey={2} href="#login">
               Login

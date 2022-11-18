@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .banner1 {
     width: 100%;
     height: 100vh;

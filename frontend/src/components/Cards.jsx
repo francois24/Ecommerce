@@ -14,7 +14,8 @@ const Cards = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
             </Card.Text>
-            <Button className='bg-success border-0' variant="primary">Buy Now!</Button>
+            <Button className='border-0 mx-2'style={{background: 'teal'}} variant="primary">Add to Cart</Button>
+            <Button className='border-0 mx-2'style={{background: 'teal'}} variant="primary">Buy Now</Button>
         </Card.Body>
     </Card>
     </div>

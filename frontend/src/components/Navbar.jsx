@@ -3,6 +3,8 @@ import {Container ,Button , Form , Nav} from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import { BsCartPlus } from "react-icons/bs";
 import '../CSS/Navbar.css'
+import { Link } from 'react-router-dom'
+// import '../CSS/Cart.css'
 
 const Navbar1 = () => {
   return (
@@ -20,14 +22,18 @@ const Navbar1 = () => {
             </Form>
 
             <Nav className="ms-auto">
-            <Nav.Link className='text-dark' href="#/">Home</Nav.Link>
+            <Nav.Link className='text-dark' href="/home">Home</Nav.Link>
             <Nav.Link className='text-dark' href="#about">About</Nav.Link>
             <Nav.Link className='text-dark' href="#product">Product</Nav.Link>
             <Nav.Link className='text-dark' href="#register">Register</Nav.Link>
             <Nav.Link className='text-dark' eventKey={2} href="#login">
               Login
-            </Nav.Link>
-            <Nav.Link className='text-dark' href="#register"><BsCartPlus className='cart'/></Nav.Link>
+              </Nav.Link>
+              
+              {/* <Nav.Link className='text-dark' href="#register"></Nav.Link> */}
+              <Link class="btn cart1" to={'/cart'}>
+                  <i class=""><BsCartPlus className='cart'/><span class="">0</span></i>
+              </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

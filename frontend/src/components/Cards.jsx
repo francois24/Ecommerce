@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 const Cards = () => {
   return (
     <div>
-    <Card style={{ width: '18rem' }}>
+    <Card  className='m-auto'style={{ width: '18rem' }}>
       <Card.Img variant="top" src="https://hesolutions.com.pk/wp-content/uploads/2019/01/picture-not-available.jpg" />
         <Card.Body>
             <Card.Title>Card Title</Card.Title>

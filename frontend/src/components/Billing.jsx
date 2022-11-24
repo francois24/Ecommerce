@@ -168,7 +168,6 @@ const Billing = () => {
                                 </MDBCol>
                               </MDBRow>
                               
-
                               <div className="float-end">
                                 <button style={{ backgroundColor: 'teal' }} className='btn btn text-center text-white rounded-2'>
                                   Place Order

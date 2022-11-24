@@ -103,7 +103,7 @@ export default function QuantityEdit() {
                           </MDBCol>
                           
                           <MDBCol md="1" lg="1" xl="1" className="text-end">
-                            <Link href="#!" className="text-muted">
+                            <Link to="#!" className="text-muted">
                               <MDBIcon fas icon="times" style={{ color: '#6c757d' }} />
                             </Link>
                           </MDBCol>
@@ -154,7 +154,7 @@ export default function QuantityEdit() {
                         
                         <div className="pt-5">
                           <MDBTypography tag="h6" className="mb-0">
-                            <MDBCardText tag="a" href="#!" className="text-body">
+                            <MDBCardText className="text-body">
                               <MDBIcon fas icon="long-arrow-alt-left me-2" style={{ color: '#6c757d' }} />
                               <Link to="/" className="text-white btn btn" style={{background: 'teal'}}>Back to shop</Link> 
                             </MDBCardText>

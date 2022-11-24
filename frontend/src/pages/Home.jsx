@@ -4,6 +4,8 @@ import Announcement from '../components/Announcement'
 import Banner from './Banner';
 import Sales from '../components/Sales';
 import Promo from '../components/Promo';
+
+
 const Home = () => {
   return (
     <div>
@@ -11,7 +13,7 @@ const Home = () => {
         <Navbar />
         <Banner />
         <Sales />
-        <Promo/>
+      <Promo />
     </div>
   )
 }

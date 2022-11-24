@@ -2,6 +2,7 @@ import React from 'react';
 import { MDBAccordion, MDBAccordionItem, MDBBtn, MDBCard, MDBCardBody, MDBCardFooter, MDBCardHeader, MDBCardImage, MDBCol, MDBContainer, MDBInput, MDBListGroup, MDBListGroupItem, MDBRow, MDBTypography, MDBIcon } from 'mdb-react-ui-kit';
 import '../CSS/Billing.css';
 import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
 
 
 const Billing = () => {
@@ -169,9 +170,7 @@ const Billing = () => {
                               </MDBRow>
                               
                               <div className="float-end">
-                                <button style={{ backgroundColor: 'teal' }} className='btn btn text-center text-white rounded-2'>
-                                  Place Order
-                                </button>
+                                  <Link to='/payment' className='btn btn text-center text-white rounded-2' style={{ backgroundColor: 'teal' }}>Place Order</Link>
                               </div>
                             </form>
                             {/* Form Section Ends*/}
